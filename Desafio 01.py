@@ -14,9 +14,9 @@ if SM >= 60:
     SM -= 60
     if SH > 24:
         SH = SH / 2
-        print(f"{SH}")
-        if SH > 12:
-            SH -= 12
-        print(f"{SH}:{SM}")
+print(f"{SH}")
+if SH > 12:
+    SH -= 12
+print(f"{SH}:{SM}")
 
 
